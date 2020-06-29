@@ -13,7 +13,8 @@ app.use(async (context) => {
   });
 });
 
-console.log(`Country Flag Server providing flags on port ${port}.`)
+const countryCode = 'it'
+console.log(`Country Flag Server providing flags via http://localhost:${port}/?countryCode=${countryCode}.`)
 
 await app.listen({ port });
 
