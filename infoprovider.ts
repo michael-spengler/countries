@@ -1,0 +1,14 @@
+import { isoCountries } from "./countries.ts"
+
+export class CountryInfoProvider {
+
+    public static getCountryCodeFromCountryName(countryName: string): string {
+
+        return isoCountries.filter((entry) => entry.countryName === countryName)[0].countryCode
+    }
+    
+    public static getCountryNameFromCountryCode(countryCode: string): string {
+        return isoCountries.filter((entry) => entry.countryCode === countryCode)[0].countryName
+    }
+
+}
