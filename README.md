@@ -4,7 +4,7 @@
 
 ```
 
-import { CountryInfoProvider } from "./infoprovider.ts"
+import { CountryInfoProvider } from "https://deno.land/x/countries/infoprovider.ts"
 
 const countryCode = CountryInfoProvider.getCountryCodeFromCountryName('Germany')
 console.log(`\nCountry Code: ${countryCode}`)
@@ -17,7 +17,6 @@ console.log(`\nCountry Name: ${countryName}\n`)
 
 You can also use the country flag server by:
 ```
-deno run --allow-net --allow-read --reload https://raw.githubusercontent.com/michael-spengler/countries/master/server.ts
 deno run --allow-net --allow-read --reload https://deno.land/x/countries/server.ts
 ```
 
@@ -28,8 +27,7 @@ http://localhost:8025?countryCode=de
 
 ## Test it via command line
 ```
-deno run --allow-net --allow-read https://raw.githubusercontent.com/michael-spengler/countries/master/test-it.ts
-<!-- deno run --allow-net --allow-read https://deno.land/x/countries/test-it.ts -->
+deno run --allow-net --allow-read https://deno.land/x/countries/test-it.ts
 
 ```
 

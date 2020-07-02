@@ -1,4 +1,4 @@
-import { isoCountries } from "./countries.ts"
+import { isoCountries } from "https://deno.land/x/countries/countries.ts"
 
 export class CountryInfoProvider {
 

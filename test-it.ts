@@ -1,6 +1,4 @@
-
-import { CountryInfoProvider } from "https://raw.githubusercontent.com/michael-spengler/countries/master/infoprovider.ts"
-// import { CountryInfoProvider } from "./infoprovider.ts"
+import { CountryInfoProvider } from "https://deno.land/x/countries/infoprovider.ts"
 
 const countryCode = CountryInfoProvider.getCountryCodeFromCountryName('Germany')
 console.log(`\nCountry Code: ${countryCode}`)
