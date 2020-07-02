@@ -20,8 +20,10 @@ You can also use the country flag server by:
 deno run --allow-net --allow-read --reload https://deno.land/x/countries/server.ts
 ```
 
-http://localhost:8025?countryCode=it
-http://localhost:8025?countryCode=de
+This will serve the flags e.g. at:  
+  
+http://localhost:8025?countryCode=it  
+http://localhost:8025?countryCode=de  
 ...
 
 
