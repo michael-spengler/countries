@@ -4,7 +4,7 @@ export class CountryInfoProvider {
 
     public static getCountryCodeFromCountryName(countryName: string): string {
 
-        return isoCountries.filter((entry) => entry.countryName === countryName)[0].countryCode
+        return isoCountries.filter((entry) => entry.countryName.toLowerCase() === countryName.toLowerCase())[0].countryCode
     }
     
     public static getCountryNameFromCountryCode(countryCode: string): string {
