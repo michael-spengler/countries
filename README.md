@@ -2,16 +2,37 @@
 
 ## Usage example for your code
 
-```
+```typescript
 
 import { CountryInfoProvider } from "https://deno.land/x/countries/infoprovider.ts"
 
 const countryCode = CountryInfoProvider.getCountryCodeFromCountryName('Germany')
-console.log(`\nCountry Code: ${countryCode}`)
-
+// 'DE'
 
 const countryName = CountryInfoProvider.getCountryNameFromCountryCode('DE')
-console.log(`\nCountry Name: ${countryName}\n`)
+// 'Germany'
+
+const country = CountryInfoProvider.getCountryFromName('Swaziland')
+/* {
+ *   countryCode: "SZ",
+ *   countryName: "Eswatini",
+ *   alpha3Code: "SWZ",
+ *   numericCode: "748",
+ *   alternativeNames: [ "Swaziland" ]
+ * }
+ */
+
+const country2 = CountryInfoProvider.getCountryFromCode(188)
+/* {
+ *   countryCode: "CR",
+ *   countryName: "Costa Rica",
+ *   alpha3Code: "CRI",
+ *   numericCode: "188"
+ * }
+ */
+
+const country3 = CountryInfoProvider.getCountryFromName('thiscountrydoesnotexist')
+// undefined
 
 ```
 
