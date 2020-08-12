@@ -1,4 +1,6 @@
-export const isoCountries = [
+import { ICountry } from "./types.ts"
+
+export const isoCountries: ICountry[] = [
   {
     countryCode: "AF",
     countryName: "Afghanistan",
