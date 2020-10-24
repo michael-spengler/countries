@@ -17,7 +17,7 @@ jobs:
       - name: "setup" # check: https://github.com/actions/virtual-environments/issues/1777
         uses: denolib/setup-deno@v2 
         with:
-         deno-version: v1.x
+         deno-version: v1.4.6
 
       - name: "check patch"
         if: contains(github.event.head_commit.message, 'create patch release')
