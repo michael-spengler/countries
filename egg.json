@@ -4,8 +4,7 @@
   "homepage": "https://github.com/michael-spengler/countries",
   "files": [
     "./**/*.ts",
-    "README.md",
-    "LICENSE"
+    "README.md"
   ],
   "entry": "./mod.ts"
 }
