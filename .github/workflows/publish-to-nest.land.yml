@@ -1,4 +1,4 @@
-name: "publish current release to nest.land"
+name: "publish current release to https://nest.land"
 
 on:
   release:
