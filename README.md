@@ -36,7 +36,14 @@ const country3 = CountryInfoProvider.getCountryFromName('thiscountrydoesnotexist
 
 ```
 
-You can also use the country flag server by:
+## Test it via command line
+```
+deno run --allow-net --allow-read https://deno.land/x/countries/test-it.ts
+
+```
+
+## Country Flags
+If you can't access the flag images via the raw files, you can also use the country flag server by:
 ```
 deno run --allow-net --allow-read --reload https://deno.land/x/countries/server.ts
 ```
@@ -47,12 +54,6 @@ http://localhost:8025?countryCode=it
 http://localhost:8025?countryCode=de  
 ...
 
-
-## Test it via command line
-```
-deno run --allow-net --allow-read https://deno.land/x/countries/test-it.ts
-
-```
 
 ## Contributions are welcome
 Feel free to create a pull request if you would like to improve things.
