@@ -1,3 +1,5 @@
+[![nest badge](https://nest.land/badge.svg)](https://nest.land/package/countries)
+
 # Countries Module
 
 ## Usage example for your code
