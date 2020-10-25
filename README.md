@@ -43,10 +43,12 @@ deno run --allow-net --allow-read https://deno.land/x/countries/test-it.ts
 ```
 
 ## Country Flags
-If you can't access the flag images via the raw files, you can also use the country flag server by:
+If you can't access the flag images via the raw files (e.g. https://github.com/michael-spengler/countries/blob/master/flags/ru.svg), you can e.g. use the country flag server by:
 ```
 deno run --allow-net --allow-read --reload https://deno.land/x/countries/server.ts
 ```
+
+or e.g. via pm2 accordingly.
 
 This will serve the flags e.g. at:  
   
