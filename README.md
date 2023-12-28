@@ -1,7 +1,6 @@
 [![nest badge](https://nest.land/badge.svg)](https://nest.land/package/countries)
 
 # Countries Module
-
 ## Usage example for your code
 
 ```typescript
@@ -43,7 +42,6 @@ const country3 = CountryInfoProvider.getCountryFromName('thiscountrydoesnotexist
 deno run --allow-net --allow-read https://deno.land/x/countries/test-it.ts
 
 ```
-
 ## Country Flags
 If you can't access the flag images via the raw files (e.g. https://github.com/michael-spengler/countries/blob/master/flags/ru.svg), you can e.g. use the country flag server by:
 ```
@@ -58,6 +56,8 @@ http://localhost:8025?countryCode=it
 http://localhost:8025?countryCode=de  
 ...
 
-
-## Contributions are welcome
-Feel free to create a pull request if you would like to improve things.
+## Donations
+Thanks to [Freedom Cash](https://FreedomCash.org), we are already free.  
+If you want to donate, you might consider donating to the [otherparty.co.uk](https://www.otherparty.co.uk/donate-crypto-the-other-party) to ensure people do not need to donate to victims but rather donate successfully to problem solvers.   
+  
+![direct-democracy](https://github.com/michael-spengler/sleep/assets/145258627/fe97b7da-62b4-4cf6-9be0-7b03b2f3095a)
